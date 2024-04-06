@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <style>
+    a{
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+
+    }
+    a:hover{
+      background-color: #ddd;
+      color: black;
+    }
+    .next{
+      background-color: #04AA6d;
+      color: white
+    }
+  </style>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,14 +53,15 @@
      </div>
 
      <div id="loveIn">
-       <!-- Tombol LOVE --><label class='lovein'>&#10084;</label>
+       <!-- Tombol LOVE -->
+       <label class='lovein'>&#10084;</label>
      </div>
      <p id="ket">Do You Miss Me?</p>
 
      <div class="kumpulanstiker">
          <!-- Stiker untuk Konten -->
          <img src="download.gif" id="fotostiker"/>
-         <img src="https://feeldreams.github.io/heart.png" id="fotostikerA"/>
+         <img src="pngegg.png" id="fotostikerA"/>
      </div>
      
      <div><div id='pergeseran'>
@@ -53,56 +70,56 @@
         </b></p>
         
         <p><b>
-	        <span>Halo Cecilkuu
+	        <span>Halo Cecilku✨ gimana kabarmu? sehat? ovt? ada yang spesial?
  </span>
         </b></p>
 
        <p><b>
-         <span>isi</span>
+         <span>Duh sekarang tanggal berapa yah? seingetku tanggal 6 sih soalnya ultahnya dedek Lydiaaa❤️‍🔥</span>
        </b></p>
        
         <p><b>
-	        <span>isi</span>
+	        <span>Nyeu bercanda kok, ciee yang udah ultah nih yeeee. Pasti dirimu udah berbagai hal yang menyenangkan, semoga gitu deh yang penting dirimu happy✨</span>
         </b></p>
 
        <p><b>
-         <span>isi</span>
+         <span>Pertama kali kita ketemuan kayaknya yang pas di SMK deh yang kukasi permen, dirimu tau namaku, tapi diriku samar samar kenal dirimuu.</span>
        </b></p>
        
         <p><b>
-	        <span>isi</span>
+	        <span>Udah berapa lama yah itu? abis itu kita barteran, lucu dehh dedek ini. Yah kalau sekarang sih udah beda bengettt.</span>
         </b></p>
         
         <p><b>
-	        <span>isi</span>
+	        <span>Aku mau ucapin makasih udah nemenin diriku dan mau jadi sahabat terpercayaku. Aku harap dirimu sehat selalu dan diberkati Tuhan yah Cecill lucuuu✨</span>
         </b></p>
 
         <p><b>
-	        <span>isi</span>
+	        <span>Mungkin hadiah dariku ga seberapa tapi itulah yang bisa kuberikan kepadamu cecil, maaf kalau diriku selama ini ada salah, berarti kita udah hampir setahun temenan yah? hehe</span>
         </b></p>
 
        <p><b>
-         <span>isi</span>
+         <span>Aku suka kalau dirimu senang dan entah kenapa aku suka kalau ketemu dirimu trus pat-patin dirimuuuu.</span>
        </b></p>
 
        <p><b>
-         <span>isi</span>
+         <span>Yah walau aku ga nyangka dirimu suka dipat-patin juga sih😭, tapi bagus deh dirimu suka walau diem diem malu🤭</span>
        </b></p>
 
        <p><b>
-         <span>isi</span>
+         <span>Semoga di umurmu yang ke 18 tahun ini diberi kesejahteraan, panjang umur, dan rezeki yang cukuppp. Aku harap dirimu dapat kasih sayang yang melimpah. Aminnnn.</span>
        </b></p>
        
        <p><b>
-         <span>isiii</span>
+         <span>Jangan sering-sering ovt yah cecillll, belajar juga buat ujian akhirmu tuhhh✨, aku yakin dirimu pasti bisa, aku siap buat nemenin dirimu😤</span>
        </b></p>
         
        <p><b>
-         <span>iisii</span>
+         <span>Ga kerasa yah dirimu udah mau lulus, kita ga bisa ketemuan lagi deh, chatnya tetap harus jalan setiap hari yahhh nanti ada yang kangen nihhh✨</span>
        </b></p>
        
         <p><b>
-	        <span id="iniakhir">isi</span>
+	        <span id="iniakhir">Terimakasih untuk semuanya yah cecil lucu sehat selalu, ingatt diriku bakal ada buat dirimu cecill lucuu✨</span>
         </b></p>
         
      </div></div>
@@ -112,11 +129,23 @@
      <div><blockquote id='bq'>
        <p id="halo" class="halo"></p>
        <p id="kalimat"></p>
-       
+
        <p id="pesanAkhir" class="gaya4"></p>
-       
+            </script>
+       <div id="divexample" style="visibility:hidden;">
+         <center>
+          <a href="" class ="next" id="Button">&raquo; Hadiah</a>
+           </center>
+       </div>
+       </div>
      </blockquote></div>
-     
+   <script>
+     function showdiv()
+     {
+       document.getElementById("divexample").style.visibility = "visible";
+     }
+     setTimeout("showdiv()", 3000);
+      </script>
    </div>
 
 <<script>
@@ -135,9 +164,9 @@ async function inipesan(){
       }
 }
 
-pesanAkhir1 = "Oh ya sebelum pesan dari abg berakhir, abg mau bilang :";
-pesanAkhir2 = "slebew";
-pesanAkhir3 = "love";
+pesanAkhir1 = "Udah lama loh Lydia diriku nunggu untuk bilang ini :";
+pesanAkhir2 = "HAPPY BIRTHDAY CECIL CANTIK✨, diberkati Tuhan selalu, jaga kesehatannya lohhh mungkin diriku ga bakal bisa pat-patin atau tosan sama dirimu lagi ke depannya, tapi aku bakal tetep berusaha buat membantu dirimu kok. Panjang umur dan kebahagiaan ku doakan selalu untuk dirimu cecil. Semoga dirimu bisa terus berkembang dan membanggakan orang tuamu dan juga orang di sekitarmu. Terus kembangkan bakatmu Lydia! selamat ulang tahun dedekku✨🥰";
+pesanAkhir3 = "Kocil-Elfrandt";  
 
 totalPesan = 14; //Input total pesan (slide) di sini ya!
 
